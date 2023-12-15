@@ -7,8 +7,21 @@
         </Console>
     </Appenders>
 
+
+
     <!-- Loggers -->
     <Loggers>
+        <!--MyBatis Log-->
+        <Logger name="jdbc.audit" level="WARN" additivity="false">
+            <AppenderRef ref="console"/>
+        </Logger>
+        <Logger name="jdbc.resultset" level="INFO" additivity="false">
+            <AppenderRef ref="console"/>
+        </Logger>
+        <Logger name="jdbc.connection" level="WARN" additivity="false">
+            <AppenderRef ref="console"/>
+        </Logger>
+
         <Logger name="org.springframework" level="INFO" additivity="false">
             <AppenderRef ref="console"/>
         </Logger>
