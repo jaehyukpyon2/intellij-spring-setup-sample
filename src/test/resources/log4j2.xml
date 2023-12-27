@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration status="INFO">
     <Properties>
-        <!--HH:mm:ss.SSS-->
+    <!--HH:mm:ss.SSS-->
         <Property name="LOG_PATTERN">%style{%d{HH:mm:ss}}{cyan} %highlight{[%p]}{FATAL=red, ERROR=yellow, INFO=green, DEBUG=blue} - [%t] class: %-20c{3} => method: %M(line: %L): %m%n%ex</Property>
     </Properties>
 

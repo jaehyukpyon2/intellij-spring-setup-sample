@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @Log4j2
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(locations = "file:src/main/webapp/WEB-INF/root-context.xml")
+@ContextConfiguration(locations = "file:../../../../../../main/webapp/WEB-INF/spring/root-context.xml")
 class SampleTests {
 
     @Autowired
