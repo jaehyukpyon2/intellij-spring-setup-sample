@@ -1,1 +1,1 @@
-# Spring legacy framwork setting using IntelliJ IDEA
+# Spring framework (NOT boot) setting using IntelliJ IDEA
