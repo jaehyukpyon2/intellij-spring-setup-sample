@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration status="INFO">
+<configuration status="DEBUG">
     <Properties>
-    <!--HH:mm:ss.SSS-->
-        <Property name="LOG_PATTERN">%style{%d{HH:mm:ss}}{cyan} %highlight{[%p]}{FATAL=red, ERROR=yellow, INFO=green, DEBUG=blue} - [%t] class: %-20c{3} => method: %M(line: %L): %m%n%ex</Property>
+        <!--HH:mm:ss.SSS-->
+        <Property name="LOG_PATTERN">%style{%d{HH:mm:ss}}{cyan} %highlight{[%p]}{FATAL=red, ERROR=magenta, WARN=yellow, INFO=green, DEBUG=blue} - [%t] class: %-20c{3} => method: %M(line: %L) <![CDATA[>> ]]>%m%n%ex</Property>
     </Properties>
 
     <Appenders>
